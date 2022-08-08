@@ -1,0 +1,189 @@
+/* ---------------------------------------------------
+Font Family
+----------------------------------------------------*/
+@font-face {
+    font-family:Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   
+}
+@font-face {
+    font-family: Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+@font-face {
+    font-family: WorkSans;
+    src: url('../fonts/WorkSans-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+/* ---------------------------------------------------
+Font Size 
+----------------------------------------------------*/
+h1, h5, h6{
+    font-family: Poppins;
+}
+h2, h3, h4{
+    font-family: Poppins;
+}
+h2.font-normal, h4.font-normal{
+    font-family: Roboto;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+.fs-20{
+    font-size: 20px;
+}
+/* ---------------------------------------------------
+Space
+----------------------------------------------------*/
+.banner{
+    padding-top: 160px;
+    margin-top: -85px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mt-n120{
+    margin-top: -120px;
+}
+.py-60-45{
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+.py-90{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.pb-45{
+    padding-bottom: 45px;
+}
+.pb-90{
+    padding-bottom: 90px;F
+}
+/* nav bar */
+header nav .navbar-brand img{
+    height: auto;
+    width: 150px;
+}
+header .navbar-nav .nav-item{
+    margin: 0 9px;
+}
+header .navbar-expand-lg .navbar-nav .nav-link{
+    position: relative;
+    font-family: Roboto;
+    color: #000;
+    padding-right: 0;
+    padding-left: 0;
+}
+header .navbar-expand-lg .navbar-nav .nav-link.btn.btn-green{
+    padding-right: 18px !important;
+    padding-left: 18px !important;
+    background-color: #f8cc06 !important; 
+    border-color: #000;
+    
+}
+header .navbar-expand-lg .navbar-nav .nav-link.btn:before, header .navbar-nav .nav-link.btn:hover:before{
+    background-color: transparent;
+}
+header .navbar-nav .nav-link:before{
+    position: absolute;
+    content: "";
+    background-color: #000;
+    height: 1px;
+    width: 0;
+    bottom: 8px;
+    transition: width 0.5s;
+}
+header .navbar-nav .nav-link:hover:before{
+    width: 100%;
+}
+header .navbar-expand-lg .navbar-nav .nav-link.active:before{
+    position: absolute;
+    content: "";
+    background-color: #000;
+    height: 1px;
+    width: 100%;
+    bottom: 8px;
+}
+header .navbar-toggler{
+    border: 0;
+}
+header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/*  img clip */
+
+.clip{
+    clip-path: polygon(26% 0, 100% 0%, 100% 100%, 0% 100%);
+ } 
+ .bg-color{
+   background-color: rgb(226, 223, 223);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 455px;
+    font-size: small;
+    padding-left:10px;
+ }
+.bg-gray{
+    background-color: rgb(231, 231, 231);
+    margin-right: 418px;
+    /* margin-left: 1px; */
+    padding-left: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+.bg-black{
+    color: white;
+    background-color: #000;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bg-backcolor{
+    background-color: rgb(231, 231, 231);
+    padding-left: 10px;
+    padding-top: 5px;
+    /* padding-right: 149px; */
+    padding-bottom: 5px;
+    margin-right: 95%;
+    font-size: small;
+}
+
+.img-shadow{
+    box-shadow: 2px 2px 20px grey;
+}
+
+
+
